@@ -1,0 +1,23 @@
+PRACTICAL 6
+Observe STP Topology Changes and Implement RSTP
+1. Implement Advanced STP Modifications and Mechanisms
+2. Implement MST
+Step to Perform:
+Step 1: (Requirement)
+1)	Take 2 Multiport Switch of 3650 name them as D1 and D2.
+2)	Then take 1 normal Switch of 2960 and name it as A1.
+Step 2:
+1)	Now connect D1 to D2 with Giga Ethernet 1/0/1 to Giga Ethernet 1/0/1 cable.
+2)	Now connect D1 to A1 with Giga Ethernet 1/0/5 to Fast Ethernet 0/1 cable.
+3)	Once Again make same connection between D1 to A1 just for backup with Giga Ethernet 1/0/6 to Fast Ethernet 0/2.
+Step 3:
+1)	Now connect D2 to A1 with Giga Ethernet 1/0/5 to Fast Ethernet 0/3 cable.
+2)	Once Again make same connection between D2 to A1 just for backup with Giga Ethernet 1/0/6 to Fast Ethernet 0/4.
+Step 4: 
+1)	Now Double click on D1, go to the physical and there you will find Power Switch Just Drag that switch in Physical Device and close window. 
+2)	Now Double click on D2, go to the physical and there you will find Power Switch Just Drag that switch in Physical Device and close window.
+Step 5: Click on D1 and go to the CLI command and Configure and add IP Address to the multiport switch D1.
+Step 6: Click on D2 and go to the CLI command and Configure and add IP Address to the multiport switch D2. 
+Step 7: Click on A1 and go to the CLI command and Configure and add IP Address to the switch A1.
+ 
+
