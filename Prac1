@@ -1,0 +1,18 @@
+Practical 1
+Implement IP SLA (IP Service Level Agreement)
+
+Steps to Perform:
+Step 1: Take 2 Routers of c7200, give the name ‘R1’ to the first router and give the name ‘ISP’ to the second router.
+Step 2:  Now we will connect both the routers with the Serial cable, so we will use Serial1/0 to connect with router R1 and Serial1/0 to connect with router ISP.
+After connecting both the routers successfully start the nodes.
+Step 3:  Now right click on router R1 and select the console option, after that Configure the router R1 using commands.
+Step 4:  After configuring the router R1, now we will add IP Address and Subnet mask to router R1.
+Step 5:  Now right click on router ISP and select the console option, after that Configure the router ISP using commands.
+Step 6:  After configuring the router ISP, now we will add IP Address and Subnet mask to router ISP.
+Step 7:  Now we will connect the router ISP to the Web server using ‘int loopback 0’ command.
+Step 8:  After connecting router ISP to the web server, 
+Now we will add IP Address and Subnet mask to web server.
+(Now we have successfully connected the Routers to Web server.)
+
+
+
