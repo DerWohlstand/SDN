@@ -1,0 +1,22 @@
+Practical- 2
+Implement IPV4 ACLs
+1. Standard    
+2. Extended
+Step 1:
+1)	Take Three Router of 1841 and name them as R1, R2 and R3. 
+2)	Take Two Switches of 2960 and give name S1 and S2.
+3)	Take Two Machine and name them as PC-A and PC-B. 
+Step 2:
+1)	Now Connect R1 to R2 with Serial Cable 0/0/1 to Serial Cable 0/0/1.
+2)	Now Connect R1 to R3 with Serial Cable 0/0/2 to Serial Cable 0/0/1.
+3)	Now Connect R2 to S1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+4)	Now Connect R3 to S2 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+5)	Now Connect S1 to PC-A with Fast Ethernet 0/2 to Fast Ethernet 0.
+6)	Now Connect S2 to PC-B with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+Step 3:
+1)	Now Click On PC-A go to desktop click on IP Config and IP address and Subnet mask to it. 
+2)	Same goes for PC-B.
+3)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+4)	Same step goes for R2 and R3.
+5)	Click S1 go to CLI command and configure and IP Address and Subnet mask to the switch. 
+6)	Same process goes for S2.
