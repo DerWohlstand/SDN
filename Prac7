@@ -1,0 +1,17 @@
+Practical 7
+1. Implement Ether Channel
+2. Tune and Optimize Ether Channel Operations
+
+Step 1: (Requirement)
+ Take 3 Switches of 2960 and name it as S1, S2 and S3.
+Step 2:  Configure the basic Switch setting.
+1)	Now connect switch S1 to S2 with Giga Ethernet 0/1 to Giga Ethernet 0/1 cable.
+2)	Once again Connect switch S1 to S2 with Giga Ethernet 0/2 to Giga Ethernet 0/2 cable.
+3)	Then Connect S1 to S3 with Fast Ethernet 0/21 to Fast Ethernet 0/21 cable.
+4)	Once again Connect S1 to S2 with Fast Ethernet 0/22 to Fast Ethernet 0/22 cable.
+5)	Then Connect S2 to S3 with Fast Ethernet 0/23 to Fast Ethernet 0/23 cable.
+6)	Once again Connect S2 to S3 with Fast Ethernet 0/24 to Fast Ethernet 0/24 cable.
+  Step 3:
+1)	Click on S1 and go to CLI command and Configure the Switch S1.
+2)	Similarly Configure the Switch S2 and Switch S3.   
+
