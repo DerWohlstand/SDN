@@ -1,0 +1,18 @@
+Practical 12
+Simulating Open Flow Using Mininet
+
+Step 1:
+1)	Take 4 Switches of 2960 and give name S1 and S2. 
+2)	Take Server and name them as Server1.
+
+Step 2:
+1)	Now Connect Server1 to S1 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+2)	Now Connect Server1 to S3 with Fast Ethernet 0/2 to Fast Ethernet 0/1. 
+3)	Now Connect Server1 to S2 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+4)	Now Connect S3 to S4 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+
+Step 3:
+1)	S1 is connected to Host H3, H4, H6.
+2)	S3 is connected to Host H8 and H7.
+3)	S2 is connected to Host H1, H5 and H2.
+4)	S4 is connected to Host H9 and H10.
