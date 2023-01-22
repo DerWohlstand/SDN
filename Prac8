@@ -1,0 +1,66 @@
+
+Practical 8
+OSPF Implementation
+1. Implement Single-Area OSPFv2.
+2. Implement Multi-Area OSPFv2.
+3. OSPFv2 Route Summarization and Filtering. 
+4. Implement Multiarea OSPFv3.
+
+8.1. Implement Single-Area OSPFv2.
+Step 1:
+1)	Take 2 routers of 1841 and give name R1 and R2.
+2)	Take 2 switches of 2960 and give name as s1 and s2.
+Step 2:
+1)	now connect R1 to S1 with Fast Ethernet 0/0 to Fast Ethernet 0/0.
+2)	 now connect S1 to S2 with Fast Ethernet 0/1 to Fast Ethernet 0/0.
+3)	now connect S2 to R2 with Fast Ethernet 0/1 to Fast Ethernet 0/0.
+Step 3:
+1)	Click on R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Click on R2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+3)	Click on S1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+4)	Click on S2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+
+
+8.2. Implement Multi-Area OSPFv2.
+Step 1:
+1)	Take 3 routers of 1841 and give name R1, R2 and R3.
+Step 2:
+1)	now connect R1 to R2 with Fast Ethernet 0/0 to Fast Ethernet 0/0.
+2)	now connect R1 to R3 with Fast Ethernet 0/01to Fast Ethernet 0/0.
+
+Step 3:
+1)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Click On R2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+3)	Click On R3 and go to CLI command and configure and add IP Address and Subnet mask to it.
+
+
+8.3. OSPFv2 Route Summarization and Filtering. 
+Step 1:
+1)	Take 3 routers of 1841 and give name R1, R2 and R3.
+Step 2:
+1)	now connect R1 to R2 with Fast Ethernet 0/0 to Fast Ethernet 0/0.
+2)	now connect R1 to R3 with Fast Ethernet 0/01to Fast Ethernet 0/0.
+3)	now connect R2 to R32with serial cable 0/ 0/1 to serial cable 0/0/1.
+4)	now connect R2 to R32with serial cable 0/ 0/2 to serial cable 0/0/2.
+ Step 3:
+1)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Click On R2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+3)	1. Click On R3 and go to CLI command and configure and add IP Address and Subnet mask to it.
+
+
+8.4. Implement Multiarea OSPFv3.
+Step 1: 
+1)	1.Take 3 routers of 1841 and give name R1, R2 and R3.
+2)	2.Take 1 server and give name server1.
+Step 2: 
+1)	Now connect R1 to R2 with Fast Ethernet 0/0 to Fast Ethernet 0/0.
+2)	Then now connect R1 to R3 with Fast Ethernet 0/1to Fast Ethernet 0/0.
+3)	Then connect R3 to server1 with Fast Ethernet 0/1to Fast Ethernet 0/0.
+
+Step 3:
+1)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Click On R2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+3)	Click On R3 and go to CLI command and configure and add IP Address and Subnet mask to it.
+
+Step 4:
+1)	Click on server1 go to Config and add IPv6 Address and gateway. 
