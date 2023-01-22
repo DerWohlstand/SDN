@@ -1,0 +1,16 @@
+Practical 9
+Implement MP-BGP Communities
+ 
+1.	Implement MP-BGP
+Step 1:
+1)	Take Three Router of 1841 and name them as R1, R2 and R3. 
+Step 2:
+1)	Now Connect R2 to R1 with Fast Ethernet 0/1 to Fast Ethernet 0/1 cable.
+2)	Now Connect R2 to R3 with Fast Ethernet 0/2 to Fast Ethernet 0/1 cable.
+3)	Now Connect R1 to R3 with Serial Cable 0/0/1 to Serial Cable 0/0/1.
+4)	Now Connect R1 to R3 with Serial Cable 0/0/2 to Serial Cable 0/0/2.
+Step 3: 
+1)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.                                              
+2)	Click On R2 and go to CLI command and configure and add IP Address and Subnet mask to it.   
+3)	Click On S1 and go to CLI command and configure and add IP Address and Subnet mask to it.  
+4)	Click On S2 and go to CLI command and configure and add IP Address and Subnet mask to it.  
