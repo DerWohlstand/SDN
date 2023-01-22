@@ -1,0 +1,21 @@
+Practical 11
+Simulating SDN with
+1.	OpenDaylight SDN Controller with the Mininet Network Emulator.
+2.	OFNet SDN network emulator
+
+Step 1:
+1)	Take Three Switches of 2960 and name them as S1, S2 and S3.
+2)	Take 3 Machine and name them as PC-1 and PC-2 and PC-3.
+Step 2:
+1)	Now Connect S2 to S1 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+2)	Now Connect S2 to S3 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+3)	Now Connect S2 to PC-2 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+4)	Now Connect S3 to PC-3 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+5)	Now Connect S1 to PC-1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+Step 3:
+1)	Click On S1 and go to CLI command and configure and add IP Address and Subnet mask to it.                      
+2)	Click On S2 and go to CLI command and configure and add IP Address and Subnet mask to it    
+3)	Click On S3 and go to CLI command and configure and add IP Address and Subnet mask to it.     
+4)	Click On PC-1 and go to CLI command and configure and add IP Address and Subnet mask to it.     
+5)	Click On PC-2 and go to CLI command and configure and add IP Address and Subnet mask to it. 
+6)	Click On PC-3 and go to CLI command and configure and add IP Address and Subnet mask to it.
