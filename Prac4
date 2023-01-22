@@ -1,0 +1,59 @@
+Practical 4
+1.	Implement GRE Tunnel 
+2.	Implement VTP 
+3.	Implement NAT 
+
+4.1. Implement GRE Tunnel
+Step 1:
+1)	Take Three Router of 1841 and name them as R1, R2 and R3.
+2)	Take Two Switches of 2960 and give name S1 and S2.
+3)	Take 4 Machine and name them as PC-1 and PC-2 and PC-3 andPC-4.
+Step 2:
+1)	Now Connect R1 to R2 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+2)	Now Connect R2 to S1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+3)	Now Connect S1 to PC-1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+4)	Now Connect S1 to PC-2 with Fast Ethernet 0/2 to Fast Ethernet 0/1. 
+5)	Now Connect R1 to R3 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+6)	Now Connect S2 to PC-3 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+7)	Now Connect S2 to PC-4 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+Step 3:
+1)	Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Same step goes for R2 and R3.
+3)	Click On S1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+4)	Same step goes for S2.
+5)	Click On PC-1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+6)	Same step goes for PC-2 and PC-3 and PC-4.
+
+4.2. Implement VTP 
+Step 1:
+1)	Take 4 Switches of 2960 and name them S1, S2, S3 and S4.
+Step 2:
+1)	Now Connect S1 to S2 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+2)	Now Connect S1 to S3 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+3)	Now Connect S3 to S4 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+Step 3:
+1)	Click On S1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+2)	Click On S2 and go to CLI command and configure and add IP Address and Subnet mask to it.
+3)	Click On S3 and go to CLI command and configure and add IP Address and Subnet mask to it.
+4)	Click On S4 and go to CLI command and configure and add IP Address and Subnet mask to it.
+
+4.3.Implement NAT 
+Step 1:
+1)	Take 2 Routers 1841 and name them as R1 and R2.
+2)	Take 2 Switches of 2960 and give name S1 and S2.
+3)	Take 4 Machine and name them as PC-1 and PC-2.
+4)	Take Server and name them as Server1.
+
+Step 2:
+1)	Now Connect R1 to R2 with Fast Ethernet 0/1 to Fast Ethernet 0/1.
+2)	Now Connect R1 to S1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+3)	Now Connect S1 to PC-1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+4)	Now Connect S1 to PC-2 with Fast Ethernet 0/3 to Fast Ethernet 0/1. 
+5)	Now Connect S2 to Server1 with Fast Ethernet 0/2 to Fast Ethernet 0/1.
+    Step 3:
+1)	1.Click On R1 and go to CLI command and configure and add IP Address and Subnet mask to it.         
+2)	2.Click On R2 and go to CLI command and configure and add IP                  Address and Subnet mask to it.   
+3)	3.Click On S1 and go to CLI command and configure and add IP Address and Subnet mask to it.
+4)	4.Click On S2 and go to CLI command and configure and add IP Address and Subnet mask to it.   
+5)	5.Click On PC-1 and go to CLI command and configure and add IP   Address it.  
+6)	Click On PC-2 and go to CLI command and configure and add IP Address and Subnet mask to it.
